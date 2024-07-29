@@ -1,0 +1,42 @@
+.myForm form{
+    background-color: rgb(9, 240, 86);
+    padding: 1rem;
+    width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.myForm form input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    outline: none;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.myForm form  button{
+    display: block;
+    width: 300px;
+    height: 40px;
+    outline: none;
+    border: none;
+    margin: auto;
+    background-color: rebeccapurple;
+    transition: all 1s ease;
+}
+
+.myForm form  button:hover{
+background-color: rgb(147, 107, 188);
+}
+
+.ic{
+    position: relative;
+}
+
+.icon{
+    position: absolute;
+    top: 1rem;
+    right: 8rem;
+}
